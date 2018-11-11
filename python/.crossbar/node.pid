@@ -1,0 +1,20 @@
+{
+    "pid": 7805, 
+    "argv": [
+        "crossbar", 
+        "start"
+    ], 
+    "options": {
+        "debug_lifecycle": false, 
+        "debug_programflow": false, 
+        "command": "start", 
+        "color": "auto", 
+        "loglevel": "info", 
+        "logformat": "standard", 
+        "logdir": null, 
+        "logtofile": false, 
+        "cbdir": "/home/krish/work/Crossbar-OpenCV-Demo/python/.crossbar", 
+        "config": "config.json", 
+        "shutdownafter": null
+    }
+}

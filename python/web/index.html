@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body onload="init();">
+    <script src="autobahn.min.js"></script>
+   Click on the Start WebCam button.
+     <p>
+    <button onclick="startWebcam();">Start WebCam</button>
+    <button onclick="stopWebcam();">Stop WebCam</button> 
+    <button onclick="snapshot();">Process with OpenCV</button> 
+    </p>
+    <video onclick="snapshot(this);" width=400 height=400 id="video" controls autoplay></video>
+  <p>
+
+     The Left side is the image from camera and right side is the OpenCV processed image : <p>
+      <canvas  id="myCanvas" width="400" height="350"></canvas>        
+      <canvas  id="myCanvasTrip" width="400" height="350"></canvas>  
+
+  </body>
+  <script src="analogtodigital.js"></script>
+
+  
+</html>
