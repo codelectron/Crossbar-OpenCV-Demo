@@ -49,7 +49,7 @@ setproctitle==1.1.10
 six==1.11.0
 sortedcontainers==2.0.5
 treq==18.6.0
-Twisted==18.9.0
+Twisted==22.2.0
 txaio==18.8.1
 txtorcon==18.3.0
 u-msgpack-python==2.5.0
