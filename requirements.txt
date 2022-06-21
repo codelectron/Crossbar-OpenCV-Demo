@@ -23,7 +23,7 @@ lmdb==0.94
 MarkupSafe==1.1.0
 mistune==0.8.4
 netaddr==0.7.19
-numpy==1.15.4
+numpy==1.22.0
 opencv-python==3.4.3.18
 passlib==1.7.1
 pathtools==0.1.2
